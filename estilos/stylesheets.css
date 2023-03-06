@@ -1,0 +1,92 @@
+.DEVOCION {
+    font-style: italic;
+    color: darkslateblue;
+    border-radius: 1px solid  black;
+    padding: 40px;
+    margin: 20px;
+    background-color: bisque;
+    text-decoration: dotted;
+    border-radius: 10px;
+    }
+
+.fondotexto { 
+    color: rgb(0, 0, 0);
+    background-color: rgba(14, 125, 153, 0.436);
+    margin: 20px;
+    font-style: italic;
+    border-radius: 10px;
+}
+.fondoHola {
+    background-color: rgba(14, 125, 153, 0.436);
+    border-radius: 10px;
+    opacity: 0,5;
+
+}
+
+.fondoMayor{ 
+    background-color: rgba(14, 125, 153, 0.436);
+    opacity: 0,5;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+     /*Sector de Horarios de atencion*/
+
+  .Dias {
+    color: aquamarine;
+    font-size: xx-large;
+    }
+
+.lunes{
+    font-size: large;
+    color:darkcyan
+    }
+    .horalunes{
+        color:darkcyan
+
+    }
+
+.miercoles{
+    font-size: large;
+    color:darksalmon
+    }
+    .horamiercoles{
+        color:darksalmon
+    }
+
+.viernes{
+    font-size: large;
+    color:darkseagreen
+    }
+    .horaviernes{
+        color:darkseagreen
+    }
+
+    /* flex jeje */
+
+section {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+  
+    display:flex;
+    width: 600px;
+    height: 430;
+}
+ 
+section img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
