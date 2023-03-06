@@ -1,82 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title >Devocion al gato</title>
+<head>
+    <title >Devocion al gato</title>
+    <link rel="stylesheet" href="./estilos/stylesheets.css">
+    <style>
+      body{ 
+        background-image: url(heavenly.png);
+        background-size: cover;
+        opacity: 0,5;      
         
-        <link rel="stylesheet" href="./estilos/stylesheets.css">
-
-        <style>
-          body{ 
-            background-image: url(heavenly.png);    
-            opacity: 0,5;      
-            
-          }
-        </style>
-    </head>
-    <body>
-      <script src="js/javascript.js"></script>
-
-
-        <header bgcolor="#000 ">
-            <nav> <ul> 
-                <li><a href="contacto.html">Contacto</a></li>
-                <li> <a href="horariosdeatencion.html">Horarios de Atencion</a></li>
-                <li><a href="ubicacion.html">Ubicacion</a></li>
-                <li><a href="comotrabajamos.html">Cómo trabajamos</a></li>
-                </ul>
-
-            </nav>
-            
-        </header>
-
-
-
-        <!--para el banner -->
-          <section id="banner" class="major">
-              <div class="fondoHola">
-              <header class="fondoMayor">
-                <h1>Hola!! </h1>
-              </header>
-              <div class="fondotexto">
-                <p>Somos un negocio que se dedica a la venta de gigantografías, cuadros y demás decoraciónes para tu hogar.<br>
-                  Aqui podras encontrar nuestro stock, el cual iremos actualizando.</p>
-                  
-              </div>
-              </div>
-          </section>
-
-
-        <main>
-          <aside>
-            <h1 class="DEVOCION"> DEVOCION AL GATO</h1>
-                <p>  Somos un negocio que se dedica a la venta de gigantografías, cuadros y demás decoraciónes para tu hogar.<br>
-                  Aqui podras encontrar nuestro stock, el cual iremos actualizando.</p>
-          </aside>
-          
-          <h3> Gatos hermosos </h3 >
-        
-                
-            <section class="section">  
-
-                    <img src="gatito.png">
-                  
-                    <img src="gatito droga.jpeg">
-                     
-                    <img src="gatito.jpeg">
-
-                    <img src="gato cursed 2.jpeg"> 
-                      
-                    <img src="cursed.jpeg">
-        
-                    
-                        </strong>
-                        
-                    </section>     
-                    
-        </main>
-
-        <footer>
-          Derechos reservados devocion al gato.
-        </footer>
-       
-     
+      }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+              <li class="nav-item"><a class="nav-link active" href="horariosdeatencion.html">Horarios de Atencion</a></li>
+              <li class="nav-item"><a class="nav-link active" href="ubicacion.html">Ubicacion</a></li>
+              <li class="nav-item"><a class="nav-link active" href="comotrabajamos.html">Cómo trabajamos</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>      
+  </header>
+  <section class="w-100">
+      <div class="fondoHola">
+        <h1 class="fondoMayor">Hola!!</h1>
+        <p class="fondotexto">
+          Somos un negocio que se dedica a la venta de gigantografías, cuadros y demás decoraciónes para tu hogar.<br>
+          Aqui podras encontrar nuestro stock, el cual iremos actualizando.
+        </p>
+      </div>
+  </section>
+  <main>
+    <aside>
+      <h1 class="DEVOCION"> DEVOCION AL GATO</h1>
+      <p class="DEVOCION">
+        Somos un negocio que se dedica a la venta de gigantografías, cuadros y demás decoraciónes para tu hogar.<br>
+        Aqui podras encontrar nuestro stock, el cual iremos actualizando.
+      </p>
+    </aside>
+    <center><h1 style="color:black"> Gatos hermosos </h1></center>
+      <section class="section w-100">  
+        <img src="gatito.png">
+        <img src="gatito droga.jpeg">
+        <img src="gatito.jpeg">
+        <img src="gato cursed 2.jpeg"> 
+        <img src="cursed.jpeg">
+      </section>     
+  </main>
+  <footer class="bg-primary text-center d-inline-block w-100" style="height: 50px;">
+    Derechos reservados devocion al gato.
+  </footer>
+  <script src="js/javascript.js"></script>
+</body>
+</html>
